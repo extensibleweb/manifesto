@@ -2,8 +2,11 @@ The Extensible Web Manifesto
 ============================
 
 We—the undersigned—advocate a change to the approach that web standards committees use to create and prioritize new features. We believe that this is critical to the long-term health of the web.
+
 Our primary goal is to tighten the feedback loop between the editors of web standards and web developers. We prefer an evolutionary model of standardization, driven by the vast army of web developers, to a top-down model of progress driven by standardization.
+
 Browser vendors should provide new low-level capabilities that expose the possibilities of the underlying platform as closely as possible. They should seed the discussion of high-level APIs through JavaScript implementations of new features (as done in the cases of [Mozilla’s X-Tags](http://www.x-tags.org/) and [Google’s Polymer](http://www.polymer-project.org/)). This involves web developers in the process and by iterating outside of the browser, avoids the platform getting stuck with bad APIs.
+
 Specifically, we offer the following design principles for an Extensible Web Platform:
 * The standards process should focus on adding ***_new low-level capabilities_*** to the web platform that are secure and efficient.
 * The web platform should expose low-level capabilities that ***_explain existing features_***, such as HTML and CSS, allowing authors to understand and replicate them.
