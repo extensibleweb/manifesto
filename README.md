@@ -98,7 +98,7 @@ Member, CSS WG; Google
 -----
 
 Related reading
-* ![Extend the Web Forward](http://yehudakatz.com/2013/05/21/extend-the-web-forward/), by Yehuda Katz, which fleshes out these ideas more.
-* ![An Extensible Approach to Browser Security Policy](http://yehudakatz.com/2013/05/24/an-extensible-approach-to-browser-security-policy/), by Yehuda Katz, which presents a practical application of these principles to the problem of designing an API for the browser's Content Security Policy.
-* ![Dropping the F-Bomb on Web Standards](https://briankardell.wordpress.com/2013/05/17/dropping-the-f-bomb/), by Brian Kardell, a practical discussion of how ideas and language from the developer community can be integrated back into interoperable standards.
-* ![Bedrock](http://infrequently.org/2012/04/bedrock/), by Alex Russell, a 2012 post that explores, in-depth, the philosophy and practice of designing the platform in an extensible ("layered") way.
+* [Extend the Web Forward](http://yehudakatz.com/2013/05/21/extend-the-web-forward/), by Yehuda Katz, which fleshes out these ideas more.
+* [An Extensible Approach to Browser Security Policy](http://yehudakatz.com/2013/05/24/an-extensible-approach-to-browser-security-policy/), by Yehuda Katz, which presents a practical application of these principles to the problem of designing an API for the browser's Content Security Policy.
+* [Dropping the F-Bomb on Web Standards](https://briankardell.wordpress.com/2013/05/17/dropping-the-f-bomb/), by Brian Kardell, a practical discussion of how ideas and language from the developer community can be integrated back into interoperable standards.
+* [Bedrock](http://infrequently.org/2012/04/bedrock/), by Alex Russell, a 2012 post that explores, in-depth, the philosophy and practice of designing the platform in an extensible ("layered") way.
