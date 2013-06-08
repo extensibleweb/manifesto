@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>The Extensible Web Manifesto by extensibleweb</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>The Extensible Web Manifesto</h1>
+          <h2>A new way forward</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/extensibleweb/manifesto/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/extensibleweb/manifesto/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/extensibleweb/manifesto" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <p>We—the undersigned—advocate a change to the approach that web standards committees use to create and prioritize new features. We believe that this is critical to the long-term health of the web.</p>
+
+<p>Our primary goal is to tighten the feedback loop between the editors of web standards and web developers. We prefer an evolutionary model of standardization, driven by the vast army of web developers, to a top-down model of progress driven by standardization.</p>
+
+<p>Browser vendors should provide new low-level capabilities that expose the possibilities of the underlying platform as closely as possible. They should seed the discussion of high-level APIs through JavaScript implementations of new features (as done in the cases of <a href="http://www.x-tags.org/">Mozilla’s X-Tags</a> and <a href="http://www.polymer-project.org/">Google’s Polymer</a>). This involves web developers in the process and by iterating outside of the browser, avoids the platform getting stuck with bad APIs.</p>
+
+<p>Specifically, we offer the following design principles for an Extensible Web Platform:</p>
+
+<ul>
+<li>The standards process should focus on adding <strong><em><em>new low-level capabilities</em></em></strong> to the web platform that are secure and efficient.</li>
+<li>The web platform should expose low-level capabilities that <strong><em><em>explain existing features</em></em></strong>, such as HTML and CSS, allowing authors to understand and replicate them.</li>
+<li>The web platform should develop, describe and test new high-level features in JavaScript, and allow web developers to iterate on them before they become standardized. This creates a <strong><em><em>virtuous cycle</em></em></strong> between standards and developers.</li>
+<li>The standards process should <strong><em><em>prioritize efforts</em></em></strong> that follow these recommendations and deprioritize and refocus those which do not.</li>
+</ul><hr><p>By focusing on standardizing <strong><em><em>new low-level capabilities</em></em></strong>, and building new features in terms of them, we:</p>
+
+<ul>
+<li>Contain new security surface area.</li>
+<li>Allow optimizations in browser engines to focus on the stable core, which affects more APIs as they are added. This leads to better performance with less implementation effort.</li>
+<li>Allow browser vendors and library authors to iterate on libraries that provide developer-friendly, high-level APIs.</li>
+</ul><p>By explaining existing and new features <strong><em><em>in terms of low-level capabilities</em></em></strong>, we:</p>
+
+<ul>
+<li>Reduce the rate of growth in complexity, and therefore bugs, in implementations.</li>
+<li>Make it possible to polyfill more of the platform's new features.</li>
+<li>Require less developer education for new features. Educational materials can build off of concepts that are already in the platform.</li>
+</ul><p>Making new features easy to understand and polyfill introduces a <strong><em><em>virtuous cycle</em></em></strong>:</p>
+
+<ul>
+<li>Developers can ramp up more quickly on new APIs, providing quicker feedback to the platform while the APIs are still the most malleable.</li>
+<li>Mistakes in APIs can be corrected quickly by the developers who use them, and library authors who serve them, providing high-fidelity, critical feedback to browser vendors and platform designers.</li>
+<li>Library authors can experiment with new APIs and create more cow-paths for the platform to pave.</li>
+</ul><p>By <strong><em><em>prioritizing efforts</em></em></strong> that follow these principles, we:</p>
+
+<ul>
+<li>Free up the standards process (especially in the short-term) to focus on features with security or performance concerns, and features that can only be added at the platform level, such as new hardware.</li>
+<li>Allow web developers and browser-initiated libraries to take the lead in costly explorations.</li>
+<li>Simplify and streamline the longer-term process of standardizing new APIs, which will already have implementations and significant real-world usage.</li>
+</ul><p>We want web developers to write more declarative code, not less. This calls for eliminating the standards bottleneck to introducing new declarative forms, and giving library and framework authors the tools to create them.</p>
+
+<p>In order for the open web to compete with its walled competitors, there must be a clear path for good ideas by web developers to become part of the infrastructure of the web. We must enable web developers to build the future web.</p>
+
+<p>In support of these principles,</p>
+
+<ul>
+<li><p>Brendan Eich <br>
+CTO and SVP Engineering, Mozilla; Creator of JavaScript</p></li>
+<li><p>Yehuda Katz <br>
+Member, TC39, W3C TAG; Core Team, Ember.js, Rails</p></li>
+<li><p>Alex Russell <br>
+TC39, W3C TAG; Google Chrome Team</p></li>
+<li><p>Brian Kardell <br>
+Chair, Extensible Web Community Group, W3C</p></li>
+<li><p>François REMY <br>
+Co-founder, Extensible Web Community Group, W3C</p></li>
+<li><p>Clint Hill <br>
+Co-founder, Extensible Web Community Group, W3C</p></li>
+<li><p>Marcos Caceres <br> 
+Co-founder, Extensible Web Community Group, W3C</p></li>
+<li><p>Tom Dale <br>
+Core Team, Ember.js</p></li>
+<li><p>Anne van Kesteren <br>
+Editor of standards, Architecture Astronaut at Mozilla</p></li>
+<li><p>Sam Tobin-Hochstadt <br>
+Member, TC39</p></li>
+<li><p>Domenic Denicola <br>
+Co-Editor, Promises/A+</p></li>
+<li><p>Chris Eppstein <br>
+Maintainer, Sass</p></li>
+<li><p>Dave Herman <br>
+Mozilla Research and TC39</p></li>
+<li><p>Alan Stearns <br>
+Member, CSSWG</p></li>
+<li><p>Rick Waldron <br>
+Member, TC39</p></li>
+<li><p>Paul Irish <br>
+Google</p></li>
+<li><p>Ted Han <br>
+Lead Developer, DocumentCloud</p></li>
+<li><p>Tab Atkins <br>
+Member, CSS WG; Google</p></li>
+</ul><hr><p><strong>Related reading</strong></p>
+
+<ul>
+<li>
+<a href="http://yehudakatz.com/2013/05/21/extend-the-web-forward/">Extend the Web Forward</a>, by Yehuda Katz, which fleshes out these ideas more.</li>
+<li>
+<a href="http://yehudakatz.com/2013/05/24/an-extensible-approach-to-browser-security-policy/">An Extensible Approach to Browser Security Policy</a>, by Yehuda Katz, which presents a practical application of these principles to the problem of designing an API for the browser's Content Security Policy.</li>
+<li>
+<a href="https://briankardell.wordpress.com/2013/05/17/dropping-the-f-bomb/">Dropping the F-Bomb on Web Standards</a>, by Brian Kardell, a practical discussion of how ideas and language from the developer community can be integrated back into interoperable standards.</li>
+<li>
+<a href="http://infrequently.org/2012/04/bedrock/">Bedrock</a>, by Alex Russell, a 2012 post that explores, in-depth, the philosophy and practice of designing the platform in an extensible ("layered") way.</li>
+</ul>
+        </section>
+
+        <footer>
+          The Extensible Web Manifesto is maintained by <a href="https://github.com/extensibleweb">extensibleweb</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
