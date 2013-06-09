@@ -331,12 +331,14 @@ footer a:hover {
 }
 
 #signatories p {
-font-size: 0.8em;
+    font-size: 0.8em;
+    color: #6d6d6d;
 }
 
 #signatories p::first-line {
-font-weight: bold;
-font-size: 1.2em;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #000000;
 }
 
 
