@@ -325,7 +325,7 @@ footer a:hover {
   color: #444;
 }
 
-[name="signatories"] li{
+#signatories li{
     list-style: none;
     padding: 0;
 }
