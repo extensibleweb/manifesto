@@ -34,13 +34,13 @@
 <p>Specifically, we offer the following design principles for an Extensible Web Platform:</p>
 
 <ul>
-<li>The standards process should focus on adding <strong><em><em>new low-level capabilities</em></em></strong> to the web platform that are secure and efficient.</li>
-<li>The web platform should expose low-level capabilities that <strong><em><em>explain existing features</em></em></strong>, such as HTML and CSS, allowing authors to understand and replicate them.</li>
-<li>The web platform should develop, describe and test new high-level features in JavaScript, and allow web developers to iterate on them before they become standardized. This creates a <strong><em><em>virtuous cycle</em></em></strong> between standards and developers.</li>
-<li>The standards process should <strong><em><em>prioritize efforts</em></em></strong> that follow these recommendations and deprioritize and refocus those which do not.</li>
+<li>The standards process should focus on adding <strong><em><a href="#capabilities">new low-level capabilities</a></em></strong> to the web platform that are secure and efficient.</li>
+<li>The web platform should expose low-level capabilities that <strong><em><a href="#explain">explain existing features</a></em></strong>, such as HTML and CSS, allowing authors to understand and replicate them.</li>
+<li>The web platform should develop, describe and test new high-level features in JavaScript, and allow web developers to iterate on them before they become standardized. This creates a <strong><em><a href="#cycle">virtuous cycle</a></em></strong> between standards and developers.</li>
+<li>The standards process should <strong><em><a href="#prioritize">prioritize efforts</a></em></strong> that follow these recommendations and deprioritize and refocus those which do not.</li>
 </ul>
 
-<hr><p>By focusing on standardizing <strong><em><em>new low-level capabilities</em></em></strong>, and building new features in terms of them, we:</p>
+<hr><p name="capabilities">By focusing on standardizing <strong><em><em>new low-level capabilities</em></em></strong>, and building new features in terms of them, we:</p>
 
 <ul>
 <li>Contain new security surface area.</li>
@@ -51,7 +51,7 @@
 
 <hr>
 
-<p>By explaining existing and new features <strong><em><em>in terms of low-level capabilities</em></em></strong>, we:</p>
+<p name="explain">By explaining existing and new features <strong><em><em>in terms of low-level capabilities</em></em></strong>, we:</p>
 
 <ul>
 <li>Reduce the rate of growth in complexity, and therefore bugs, in implementations.</li>
@@ -61,7 +61,7 @@
 
 
 <hr>
-<p>Making new features easy to understand and polyfill introduces a <strong><em><em>virtuous cycle</em></em></strong>:</p>
+<p name="cycle">Making new features easy to understand and polyfill introduces a <strong><em><em>virtuous cycle</em></em></strong>:</p>
 
 <ul>
 <li>Developers can ramp up more quickly on new APIs, providing quicker feedback to the platform while the APIs are still the most malleable.</li>
@@ -70,16 +70,21 @@
 </ul>
 
 <hr>
-<p>By <strong><em><em>prioritizing efforts</em></em></strong> that follow these principles, we:</p>
+<p name="prioritize">By <strong><em><em>prioritizing efforts</em></em></strong> that follow these principles, we:</p>
 
 <ul>
 <li>Free up the standards process (especially in the short-term) to focus on features with security or performance concerns, and features that can only be added at the platform level, such as new hardware.</li>
 <li>Allow web developers and browser-initiated libraries to take the lead in costly explorations.</li>
 <li>Simplify and streamline the longer-term process of standardizing new APIs, which will already have implementations and significant real-world usage.</li>
-</ul><p>We want web developers to write more declarative code, not less. This calls for eliminating the standards bottleneck to introducing new declarative forms, and giving library and framework authors the tools to create them.</p>
+</ul>
 
 <hr>
+
+<p>We want web developers to write more declarative code, not less. This calls for eliminating the standards bottleneck to introducing new declarative forms, and giving library and framework authors the tools to create them.</p>
+
 <p>In order for the open web to compete with its walled competitors, there must be a clear path for good ideas by web developers to become part of the infrastructure of the web. We must enable web developers to build the future web.</p>
+
+<hr>
 
 <p>
 In support of these principles,
