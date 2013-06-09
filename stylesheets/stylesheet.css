@@ -330,6 +330,16 @@ footer a:hover {
     padding: 0;
 }
 
+#signatories p {
+font-size: 0.8em;
+}
+
+#signatories p::first-line {
+font-weight: bold;
+font-size: 1.2em;
+}
+
+
 /* MISC */
 .clearfix:after {
   clear: both;
