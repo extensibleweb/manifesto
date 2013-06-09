@@ -343,7 +343,7 @@ footer a:hover {
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
 
-#social {top: 1em;}
+#social {top: 1em; left: 1em;}
 
 /* #Media Queries
 ================================================== */
