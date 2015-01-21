@@ -7,7 +7,7 @@ The Extensible Web Manifesto
 標準化が発展していくモデルとして、手順を重視しトップダウンで決定するモデルよりも、多くの有能な開発者によって駆動するモデルを選びます。
 
 ブラウザベンダは、基盤となるプラットフォームが持つ可能性を、低レベルの機能としてできる限り提供すべきです。
-新しい高レベル API を JavaScript による実装をもとに議論できるように、土台を提供すべきです(すでに [Mozilla's X-Tags](http://www.x-tags.org/) や [Google's Polymer](http://www.polymer-project.org/) で行われています)。
+新しい高レベル API を JavaScript による実装をもとに議論できるように、土台を提供すべきです(すでに Mozilla の [X-Tags](http://www.x-tags.org/) や Google の [Polymer](http://www.polymer-project.org/) で行われています)。
 これにより、開発者は標準化に参加可能になり、ブラウザの外で議論が繰り返されることで、粗悪な API が定義されるのを防ぎます。
 
 特に、 Extensible Web プラットフォームに対して、以下の方針を提唱します。
