@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>The Extensible Web Manifesto</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>The Extensible Web Manifesto</h1>
+          <h2>#extendthewebforward</h2>
+        </header>
+
+        <hr>
+
+        <section id="main_content">
+          <p>私たち -<a href="#signatories">the undersigned</a>- は、 Web 標準化団体が新しい機能の追加やその優先順位を決めるために取ってきた、旧来の方法を変えるべきだと主張します。これは、これから先の長い期間に渡って、 Web が健全であるために必要なことだと考えているからです。</p>
+
+          <p>第一の目標は、Web 標準仕様のエディタと Web 開発者の間で、しっかりとフィードバックのループがまわることです。
+          標準化が発展していくモデルとして、手順を重視しトップダウンで決定するモデルよりも、多くの有能な開発者によって駆動するモデルを選びます。</p>
+
+          <p>ブラウザベンダは、基盤となるプラットフォームが持つ可能性を、低レベルの機能としてできる限り提供すべきです。
+          新しい高レベル API を JavaScript による実装をもとに議論できるように、土台を提供すべきです(すでに Mozilla の <a href="http://www.x-tags.org/">X-Tags</a> や Google の <a href="http://www.polymer-project.org/">Polymer</a> で行われています)。
+          これにより、開発者は標準化に参加可能になり、ブラウザの外で議論が繰り返されることで、粗悪な API が定義されるのを防ぎます。</p>
+
+          <hr>
+
+          <p>特に、 Extensible Web プラットフォームに対して、以下の方針を提唱します</p>
+
+
+<ul>
+<li>標準化プロセスは、 Web プラットフォームに対するセキュアで効果的な <strong><em>新しい低レベルな機能</em></strong> の策定に注力すべきです。</li>
+<li>Web プラットフォームは、開発者が HTML や CSS などを理解し、それらを置き換えることが可能となる <strong><em>既存の特徴を説明</em></strong> した低レベルな機能を提供すべきです。</li>
+<li>Web プラットフォームは、開発者が新しい高レベル API の開発・表現・テストを JavaScript で行い、それが標準化される前にくりかえし行えるようにすべきです。これは、 <strong><em>価値のあるサイクル</em></strong> を仕様策定者と開発者の間にもたらします。</li>
+<li>標準化プロセスは、これらの方針に従って <strong><em>優先順位づけ</em></strong> をすべきであり、そうなっていないものは、優先度を見直すべきです。</li>
+</ul>
+
+<hr><p id="capabilities"><strong><em><em>新しい低レベルな機能</em></em></strong>,  の仕様化にフォーカスし、その観点から新しい機能を実装することで、</p>
+
+<ul>
+<li>新しいセキュリティの問題を抑制することができます。</li>
+<li>ブラウザエンジンが、これから追加する API に影響するような、コア部分の最適化に注力できます。これにより、小さい実装コストで、より良いパフォーマンスを得ることに繋がります。</li>
+<li>ブラウザベンダとライブラリ作者が、開発者のニーズにあった高レベル API としてのライブラリの開発を行えるようになります。</li>
+</ul>
+
+<hr>
+
+<p id="explain"><strong><em><em>低レベルな機能の視点から</em></em></strong>, 既存の機能とこれから追加される新しい特徴を説明することは</p>
+
+<ul>
+<li>実装の複雑さの低減や、バグの減少に貢献します。</li>
+<li>より多くの新機能のポリフィルを可能にします。</li>
+<li>新しい機能についての学習コストを減らします。学習に必要なコンテンツも、すでにプラットフォームにあるコンセプトをもとに作り直すことができます。</li>
+</ul>
+
+
+<hr>
+<p id="cycle">新しい機能の理解を簡単にし、それらをポリフィルすることは <strong><em><em>価値のあるサイクル</em></em></strong>  をまわします。</p>
+
+<ul>
+<li>開発者は新しい API をより早く試し、仕様が固まる前にプラットフォームに対してフィードバックを送ることができます。</li>
+<li>API を利用する開発者や、ライブラリを提供する作者によって、 API のミスはよりすばやく洗い出され、適切で重要なフィードバックをブラウザベンダやプラットフォームのデザイナに提供することができます。</li>
+<li>ライブラリの作者は、新しい API を用いて知見をため、プラットフォームが進むべき道を示すことができます。</li>
+</ul>
+
+<hr>
+<p id="prioritize">以下の方針に基づいて <strong><em><em>優先順位づけ</em></em></strong>  することで、</p>
+
+<ul>
+<li>(特に短期間の)標準化プロセスを解放し、セキュリティやパフォーマンスへの懸念や、新しいハードウェアなどプラットフォームレベルでしか追加しえない機能の標準化に注力できます。</li>
+<li>Web 開発者とブラウザ由来のライブラリが、コストのかかる調査を主導できます。</li>
+<li>すでに実世界で、実装され意味を成している新しい API があることで、長期に渡る標準化プロセスをシンプルかつ効率化します。</li>
+</ul>
+
+<hr>
+
+<p>もっと開発者がコードを書いて欲しいと考えています。それは、新しい形式を取り入れる上での標準化のボトルネックを取り除き、ライブラリとフレームワークの作者に、開発のために必要なツールを提供します。</p>
+
+<p>オープンな Web がそれを取りまく競合と競うためには、 Web 開発者の良いアイデアを、Web のインフラの一部とするためのはっきりとした手段が必要です</p>
+
+<hr>
+
+<p>
+このマニフェストに賛同する人々
+</p>
+
+<p><a href="https://docs.google.com/forms/d/1fqaqAjUZR8uDo5l9p1_80-1kt0SFQNJ_fCjiZPNgj4Y/viewform">Sign the Manifesto</a></p>
+<p><a href="https://docs.google.com/spreadsheet/pub?key=0AtR1SNsaFeH9dGI5eWZQVGNhZWEyQUhtaUw3ZWl1dVE&single=true&gid=0&output=html">Other Signers</a></p>
+
+<ul id="signatories">
+<li><p>Brendan Eich <br>
+CTO and SVP Engineering, Mozilla; Creator of JavaScript</p></li>
+<li><p>Yehuda Katz <br>
+Member, TC39, W3C TAG; Core Team, Ember.js, Rails</p></li>
+<li><p>Alex Russell <br>
+Member, TC39, W3C TAG; Google Chrome Team</p></li>
+<li><p>Brian Kardell <br>
+Chair, Extensible Web Community Group, W3C</p></li>
+<li><p>François REMY <br>
+Co-founder, Extensible Web Community Group, W3C</p></li>
+<li><p>Clint Hill <br>
+Co-founder, Extensible Web Community Group, W3C</p></li>
+<li><p>Marcos Caceres <br>
+Co-founder, Extensible Web Community Group, W3C</p></li>
+<li><p>Tom Dale <br>
+Core Team, Ember.js</p></li>
+<li><p>Anne van Kesteren <br>
+Editor of standards, Architecture Astronaut at Mozilla</p></li>
+<li><p>Sam Tobin-Hochstadt <br>
+Member, TC39</p></li>
+<li><p>Domenic Denicola <br>
+Co-Editor, Promises/A+</p></li>
+<li><p>Chris Eppstein <br>
+Maintainer, Sass</p></li>
+<li><p>Dave Herman <br>
+Mozilla Research and TC39</p></li>
+<li><p>Alan Stearns <br>
+Member, CSSWG</p></li>
+<li><p>Rick Waldron <br>
+Member, TC39; Core Team, jQuery, Bocoup</p></li>
+<li><p>Paul Irish <br>
+Google</p></li>
+<li><p>Ted Han <br>
+Lead Developer, DocumentCloud</p></li>
+<li><p>Tab Atkins <br>
+Member, CSS WG; Google</p></li>
+<li><p>Dan Appelquist <br>
+Co-Chair, W3C TAG, Open Web Advocate, Telefónica</p></li>
+<li><p>Isaac Schlueter <br>
+Maintainer, Node.js</p></li>
+<li><p>Allen Wirfs-Brock <br>
+Mozilla Research Fellow, TC39 Member, Editor of The ECMAScript Specification</p></li>
+</ul>
+
+<hr><p><strong>Related reading</strong></p>
+
+<ul>
+<li>
+<a href="http://yehudakatz.com/2013/05/21/extend-the-web-forward/">Extend the Web Forward</a>, by Yehuda Katz, which fleshes out these ideas more.</li>
+<li>
+<a href="http://yehudakatz.com/2013/05/24/an-extensible-approach-to-browser-security-policy/">An Extensible Approach to Browser Security Policy</a>, by Yehuda Katz, which presents a practical application of these principles to the problem of designing an API for the browser's Content Security Policy.</li>
+<li>
+<a href="https://briankardell.wordpress.com/2013/05/17/dropping-the-f-bomb/">Dropping the F-Bomb on Web Standards</a>, by Brian Kardell, a practical discussion of how ideas and language from the developer community can be integrated back into interoperable standards.</li>
+<li>
+<a href="http://infrequently.org/2012/04/bedrock/">Bedrock</a>, by Alex Russell, a 2012 post that explores, in-depth, the philosophy and practice of designing the platform in an extensible ("layered") way.</li>
+<li>
+<a href="http://smus.com/how-the-web-should-work/">How the Web Should Work</a>, by Boris Smus, a 2012 post that describes how "forward polyfills" (or prollyfills) should work practically.</li>
+</ul>
+
+        </section>
+
+        <footer>
+          The Extensible Web Manifesto is maintained by <a href="https://github.com/extensibleweb">extensibleweb</a><br>
+        </footer>
+
+
+      </div>
+    </div>
+
+    <!-- AddThis Button BEGIN -->
+    <div id="social" class="addthis_toolbox addthis_floating_style addthis_16x16_style">
+    <a class="addthis_button_facebook"></a>
+    <a class="addthis_button_twitter"></a>
+    <a class="addthis_button_google_plusone_share"></a>
+    </div>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51b3b1ab7b3cacba"></script>
+    <!-- AddThis Button END -->
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-557621-12', 'extensiblewebmanifesto.org');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>
