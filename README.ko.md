@@ -14,14 +14,14 @@ The Extensible Web Manifesto
 ------
 
 확장 가능한 웹 플랫폼(Extensible Web Platform)은 아래의 설계 원칙을 따르기를 제안합니다.
-*웹 플랫폼에 대한 안전하고 효과적인 ***새로운 기본 수준 기능*** 개발에 주력 해야합니다.
-* HTML이나 CSS 등의 ***기존 기능을 구현***하는 기본 수준의 기능을 제공함으로써, 웹 개발자가 이해하고 재현할 수 있도록 해야합니다.
-* 웹 개발자가 새로운 높은 수준의 API를 개발·표현·테스트를 JavaScript로 하고 개발자들이 표준화되기 전에 반복 테스트할 수 있도록 해야합니다. 이를 통해 표준을 만드는 사람과 개발자 사이의 ***의미있는 피드백 체계***를 제공합니다.
-* 향후 표준화 과정은 이러한 원칙에 따라 ***우선 순위를 정리*** 해야하며, 그렇게 되지 않을 경우 우선 순위를 재검토​​해야합니다.
+*웹 플랫폼에 대한 안전하고 효과적인 **새로운 기본 수준 기능** 개발에 주력 해야합니다.
+* HTML이나 CSS 등의 **기존 기능을 구현**하는 기본 수준의 기능을 제공함으로써, 웹 개발자가 이해하고 재현할 수 있도록 해야합니다.
+* 웹 개발자가 새로운 높은 수준의 API를 개발·표현·테스트를 JavaScript로 하고 개발자들이 표준화되기 전에 반복 테스트할 수 있도록 해야합니다. 이를 통해 표준을 만드는 사람과 개발자 사이의 **의미있는 피드백 체계**를 제공합니다.
+* 향후 표준화 과정은 이러한 원칙에 따라 **우선 순위를 정리** 해야하며, 그렇게 되지 않을 경우 우선 순위를 재검토​​해야합니다.
 
 ------
 
-***신규 기본 수준 기능*** 표준화와 그러한 관점의 신규 기능에 집중함으로서, 우리는
+**신규 기본 수준 기능** 표준화와 그러한 관점의 신규 기능에 집중함으로서, 우리는
 
 * 새로운 보안 문제가 생길 수 있는 영역의 최소화를 할 수 있습니다.
 * 브라우저 엔진이 앞으로 추가 되는 API에 영향을 주는 핵심 부분 최적화에만 주력할 수 있습니다. 그러면, 작은 구현 비용으로 더 나은 성능을 얻을 수 있습니다.
@@ -29,7 +29,7 @@ The Extensible Web Manifesto
 
 ------
 
-***기본 수준 기능 관점에서*** 기존 기능과 앞으로 추가되는 새로운 기능을 설명함으로서, 우리는... 
+**기본 수준 기능 관점에서** 기존 기능과 앞으로 추가되는 새로운 기능을 설명함으로서, 우리는... 
 
 * 구현 결과의 복잡도를 줄일 수 있고, 그에 따라 버그 발생율을 줄일 수 있습니다.
 * 다양한 신규 플랫폼 새로운 기능을 더 많이 제공할 수 있습니다.
@@ -37,7 +37,7 @@ The Extensible Web Manifesto
 
 ------
 
-신규 기능을 쉽게 이해시키고 ***의미있는 피드백 체계***를 여러 방면에 적용함으로서, 우리는...
+신규 기능을 쉽게 이해시키고 **의미있는 피드백 체계**를 여러 방면에 적용함으로서, 우리는...
 
 * 웹 개발자로 하여금 새로운 API를 더 빨리 시도할 수 있고, 표준 사양이 완료되기 전에 플랫폼 변화에 대한 피드백을 보낼 수 있습니다.
 * API를 이용하는 웹 개발자와 라이브러리를 제공하는 개발자에 의해 API의 실수는 빠르게 확인되고, 이를 통해 중요한 피드백을 브라우저 벤더와 플랫폼 설계자에게 적절한 시기에 제공 할 수 있습니다.
@@ -45,7 +45,7 @@ The Extensible Web Manifesto
 
 ------
 
-이러한 원칙에 따라 ***우선 순위를 부여***함으로써, 우리는...
+이러한 원칙에 따라 **우선 순위를 부여**함으로써, 우리는...
 
 * 보안 및 성능 문제와 함께 기능에 집중하는 (특히 단기적인) 표준 프로세스를 자유롭게 함으로서 새로운 하드웨어 같은 웹 플랫폼 수준에서만 추가되어야 할 기능 표준화에 주력 할 수 있습니다.
 * 웹 개발자와 브라우저가 주도하는 라이브러리의 구현 비용에 대한 조사를 이끌 수 있습니다.
@@ -65,72 +65,72 @@ The Extensible Web Manifesto
 
 
 
-***Brendan Eich***
+**Brendan Eich**
 CTO and SVP Engineering, Mozilla; Creator of JavaScript
 
-***Yehuda Katz***
+**Yehuda Katz**
 Member, TC39, W3C TAG; Core Team, Ember.js, Rails
 
-***Alex Russell***
+**Alex Russell**
 Member, TC39, W3C TAG; Google Chrome Team
 
-***Brian Kardell***
+**Brian Kardell**
 Chair, Extensible Web Community Group, W3C
 
-***François REMY***
+**François REMY**
 Co-founder, Extensible Web Community Group, W3C
 
-***Clint Hill***
+**Clint Hill**
 Co-founder, Extensible Web Community Group, W3C
 
-***Marcos Caceres***
+**Marcos Caceres**
 Co-founder, Extensible Web Community Group, W3C
 
-***Tom Dale***
+**Tom Dale**
 Core Team, Ember.js
 
-***Anne van Kesteren***
+**Anne van Kesteren**
 Editor of standards, Architecture Astronaut at Mozilla
 
-***Sam Tobin-Hochstadt***
+**Sam Tobin-Hochstadt**
 Member, TC39
 
-***Domenic Denicola***
+**Domenic Denicola**
 Co-Editor, Promises/A+
 
-***Chris Eppstein***
+**Chris Eppstein**
 Maintainer, Sass
 
-***Dave Herman***
+**Dave Herman**
 Mozilla Research and TC39
 
-***Alan Stearns***
+**Alan Stearns**
 Member, CSSWG
 
-***Rick Waldron***
+**Rick Waldron**
 Member, TC39; Core Team, jQuery, Bocoup
 
-***Paul Irish***
+**Paul Irish**
 Google
 
-***Ted Han***
+**Ted Han**
 Lead Developer, DocumentCloud
 
-***Tab Atkins***
+**Tab Atkins**
 Member, CSS WG; Google
 
-***Dan Appelquist***
+**Dan Appelquist**
 Co-Chair, W3C TAG, Open Web Advocate, Telefónica
 
-***Isaac Schlueter***
+**Isaac Schlueter**
 Maintainer, Node.js
 
-***Allen Wirfs-Brock***
+**Allen Wirfs-Brock**
 Mozilla Research Fellow, TC39 Member, Editor of The ECMAScript Specification
 
 -----
 
-***참고 문서***
+**참고 문서**
 * [Extend the Web Forward](http://yehudakatz.com/2013/05/21/extend-the-web-forward/) by Yehuda Katz, 본 아이디어의 세부 사항을 설명하는 문서
 * [An Extensible Approach to Browser Security Policy](http://yehudakatz.com/2013/05/24/an-extensible-approach-to-browser-security-policy/) by Yehuda Katz, 이러한 방법을 구현한 응용 프로그램으로 브라우저 Content Security Policy의 API 디자인에 대한 문제에 대한 해설
 * [Dropping the F-Bomb on Web Standards](https://briankardell.wordpress.com/2013/05/17/dropping-the-f-bomb/) by Brian Kardell, 개발자 커뮤니티에서 나온 아이디어와 표준 언어를 표준에 어떻게 포함 할 것인가에 대한 실질적인 논의.
